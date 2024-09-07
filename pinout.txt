@@ -1,0 +1,6 @@
+Yellow  = MISO / RX = Grey
+Orange  = MOSI / TX = White
+Brown   = SCK       = Green
+Purple  = NSS / CSN = Green / Yellow
+Red     = 3.3V      = purple
+Black   = GND       = blue
