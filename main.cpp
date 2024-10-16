@@ -58,11 +58,11 @@ void loop() {
         uint input1 = getPicoInput(1);
 
         // uint input1 = (uint)(getAds1015Input(0) / 1623.0f * 1023.0f);
-        uint input2 = (uint)(getAds1015Input(1) / 1623.0f * 1023.0f);
-        uint input3 = (uint)(getAds1015Input(2) / 1623.0f * 1023.0f);
-        uint input4 = (uint)(getAds1015Input(3) / 1623.0f * 1023.0f);
+        uint input2 = (uint)(getAds1015Input(1) / 1644.0f * 1023.0f);
+        uint input3 = (uint)(getAds1015Input(2) / 1644.0f * 1023.0f);
+        uint input4 = (uint)(getAds1015Input(3) / 1644.0f * 1023.0f);
 
-        printf("%u|%u|%u|%u|%u\n", input0, input1, input2, input3, input4);
+        printf("%u|%u|%u|%u|%u\n", input2, input3, input4, input1, input0);
 
         gpio_put(PICO_DEFAULT_LED_PIN, true);
         sleep_ms(50);
